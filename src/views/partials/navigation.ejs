@@ -1,16 +1,32 @@
-<!-- NAVAR / HEADER -->
-<nav class="bg-gray-900 p-4">
-  <div class="container mx-auto flex items-center justify-between">
-    <div class="flex items-center">
-      <a href="/" class="text-white text-lg font-bold">Node Site</a>
+<nav class="bg-gray-900 p-2">
+  <div class="flex justify-between items-center w-[92%] mx-auto">
+    <div>
+      <img class="w-20 cursor-pointer" src="/img/node.png" alt="..." />
     </div>
-    <div class="hidden md:flex items-center space-x-4 font-semibold">
-      <a href="/" class="text-white">Home</a>
-      <a href="/about" class="text-white">About</a>
-      <a href="/contact" class="text-white">Contact</a>
+    <div
+      class="nav-links duration-500 md:bg-transparent bg-slate-700 sm:bg-gray-700 absolute md:min-h-fit min-h-[30vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5 z-20 font-semibold md:static"
+    >
+      <ul
+        class="flex md:flex-row flex-col md:items-center md:gap-[3vw] gap-6 w-full"
+      >
+        <li class="flex justify-center">
+          <a href="/" class="text-white">Home</a>
+        </li>
+        <li class="flex justify-center">
+          <a href="/about" class="text-white">About</a>
+        </li>
+        <li class="flex justify-center">
+          <a href="/contact" class="text-white">Contact</a>
+        </li>
+      </ul>
     </div>
-    <div class="md:hidden">
-      <button class="text-white focus:outline-none">
+    <div class="flex items-center gap-6">
+      <!-- boton ham -->
+      <button
+        class="text-white focus:outline-none text-3xl cursor-pointer md:hidden"
+        name="menu"
+        onclick="onToggleMenu(this)"
+      >
         <svg
           class="h-6 w-6"
           viewBox="0 0 24 24"
@@ -28,4 +44,13 @@
       </button>
     </div>
   </div>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    const navLinks = document.querySelector(".nav-links");
+    function onToggleMenu(e) {
+      e.name = e.name === "menu" ? "close" : "menu";
+      navLinks.classList.toggle("top-[3.75rem]");
+    }
+  </script>
 </nav>

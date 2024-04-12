@@ -6,12 +6,36 @@
     <title><%= title %></title>
     <%- include('partials/head.ejs') %>
   </head>
-  <body class="bg-gray-700 text-white">
+  <body class="flex flex-col min-h-screen bg-gray-800 text-white">
     <%- include('partials/navigation')%>
 
-    <!-- MAIN CONTENT  -->
+    <!-- MAIN CONTENT -->
 
+    <div
+      class="flex-grow container pt-2 text-center flex justify-center items-center"
+    >
+      <main class="">
+        <section>
+          <h1 class="text-5xl font-bold">About</h1>
 
-    <h1 class="text-bold font-extrabold">Estas en el About GAAAAA</h1>
+          <p class="mt-4 px-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+            excepturi repellat quod perspiciatis nostrum ipsam blanditiis libero
+            labore placeat distinctio, ipsa sed, in consequatur enim maxime!
+            Sapiente neque autem aliquid! Esse repellat sint nam ipsum debitis
+            quibusdam nemo ipsam dicta nesciunt vero officia facilis laboriosam
+            minima suscipit, nihil amet doloremque saepe maiores a adipisci
+            dolorum eveniet enim? Unde cupiditate error quas doloremque, tempora
+            asperiores quibusdam ipsam enim sequi pariatur esse, tenetur
+            consequuntur autem! Ut, rem cupiditate ea dolorum ipsum quia animi
+            odit ipsa. Magni, modi minima. Velit assumenda culpa obcaecati sit,
+            ipsam praesentium facilis beatae illum nobis animi consequatur
+            perspiciatis?
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <%- include('partials/footer')%>
   </body>
 </html>

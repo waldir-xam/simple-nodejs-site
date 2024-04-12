@@ -3,39 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
     <title><%= title %></title>
     <%- include('partials/head.ejs') %>
   </head>
   <body class="bg-gray-800 text-white">
     <%- include('partials/navigation')%>
-    <header class="container flex justify-center align-middle items-center h-screen">
-      <div class="flex flex-col justify-center align-middle items-center">
-        <img
-          src="/img/node.png"
-          class="w-64 m-auto animate-bounce aspect-auto"
-          alt="website logo"
-        />
-        <h1 class="my-5 uppercase font-bold">NodeJs</h1>
-        <button
-          class="bg-blue-700 px-4 py-2 rounded-xl font-semibold w-32"
-          href="/about"
-        >
-          About Us
-        </button>
-      </div>
-    </header>
-    <!-- SECTION ONE -->
+    <div
+      class="h-screen items-center align-middle flex justify-center flex-col gap-4"
+    >
+      <header class="container flex justify-center align-middle items-center">
+        <div class="flex flex-col justify-center align-middle items-center">
+          <img
+            src="/img/node.png"
+            class="w-64 m-auto animate-bounce aspect-auto"
+            alt="website logo"
+          />
+          <h1 class="my-5 uppercase font-bold">NodeJs</h1>
+          <button
+            onclick="window.location.href='/about'"
+            class="bg-blue-700 px-4 py-2 rounded-xl font-semibold w-32"
+          >
+            About Us
+          </button>
+        </div>
+      </header>
+      <!-- SECTION ONE -->
 
-    <div class="container mx-auto px-4" id="about">
-      <div class="bg-gray-800 text-white p-5 text-center">
-        <div class="md:w-9/12 md:ml-auto md:mr-auto">
-          <h3>Lorem, ipsum dolor.</h3>
-          <p>
-            Elit exercitationem id illo sit distinctio. Deserunt ut debitis
-            voluptates mollitia dignissimos eligendi vel quidem itaque dolores
-            ratione ut. Soluta accusantium dolor nemo suscipit rerum. Aliquid
-            quasi excepturi provident eos.
-          </p>
+      <div class="container mx-auto px-4" id="about">
+        <div class="bg-gray-800 text-white p-5 text-center">
+          <div class="md:w-9/12 md:ml-auto md:mr-auto">
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>
+              Elit exercitationem id illo sit distinctio. Deserunt ut debitis
+              voluptates mollitia dignissimos eligendi vel quidem itaque dolores
+              ratione ut. Soluta accusantium dolor nemo suscipit rerum. Aliquid
+              quasi excepturi provident eos.
+            </p>
+          </div>
         </div>
       </div>
     </div>
