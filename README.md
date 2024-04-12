@@ -40,29 +40,29 @@ npm run dev
 
 ```
 └── 📁node-first-project
-└── .gitignore
-└── README.md
-└── package-lock.json
-└── package.json
-└── postcss.config.js
-└── 📁src
-└── index.js
-└── 📁public
-└── 📁img
-└── favicon.png
-└── node.png
-└── node1.png
-└── styles.css
-└── tailwind.css
-└── 📁routes
-└── index.js
-└── 📁views
-└── about.ejs
-└── contact.ejs
-└── index.ejs
-└── 📁partials
-└── footer.ejs
-└── head.ejs
-└── navigation.ejs
-└── tailwind.config.js
+    └── .gitignore
+    └── README.md
+    └── package-lock.json
+    └── package.json
+    └── postcss.config.js
+    └── 📁src
+        └── index.js
+        └── 📁public
+            └── 📁img
+                └── favicon.png
+                └── node.png
+                └── node1.png
+            └── styles.css
+            └── tailwind.css
+        └── 📁routes
+            └── index.js
+        └── 📁views
+            └── about.ejs
+            └── contact.ejs
+            └── index.ejs
+            └── 📁partials
+                └── footer.ejs
+                └── head.ejs
+                └── navigation.ejs
+    └── tailwind.config.js
 ```
