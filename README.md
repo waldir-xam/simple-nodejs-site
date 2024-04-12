@@ -28,21 +28,16 @@ This project is a simple web application developed with Node.js using the follow
    npm install
    ```
 
-4. Execute the project
-
-   ```sh
-   npm run dev
-   ```
-
 ## Execution
 
 To run the application in a development environment:
 
-```bash
+```sh
 npm run dev
-
+```
 
 ## Estructura
+
 ```
 
 └── 📁node-first-project
@@ -71,6 +66,8 @@ npm run dev
 └── head.ejs
 └── navigation.ejs
 └── tailwind.config.js
+
+```
 
 ```
 
