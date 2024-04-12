@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "tailwind:css": "postcss ./src/public/tailwind.css -o ./src/public/styles.css",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "norde src/index.js"
   },
   "keywords": [],
   "author": "waldir-xam",
