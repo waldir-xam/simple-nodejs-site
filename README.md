@@ -36,10 +36,9 @@ To run the application in a development environment:
 npm run dev
 ```
 
-## Estructura
+## Estructure
 
 ```
-
 └── 📁node-first-project
 └── .gitignore
 └── README.md
@@ -66,9 +65,4 @@ npm run dev
 └── head.ejs
 └── navigation.ejs
 └── tailwind.config.js
-
-```
-
-```
-
 ```
